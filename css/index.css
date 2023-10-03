@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ffffff;
+}
+
+.header {
+  /* background-color: red; */
+  background-color: #24053e;
+  color: white;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 9rem 5rem 9rem;
+  align-items: center;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+}
+
+.hero--section {
+  max-width: 120rem;
+  height: 77vh;
+  margin: 0 auto;
+  background-color: #24053e;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.main--nav {
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.18px;
+}
+
+li {
+  list-style: none;
+}
+
+.btn--nav {
+  text-decoration: none;
+  list-style: none;
+  border-bottom: 3px solid #44ffa1;
+  color: white;
+}
+
+.hero--center {
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero--text {
+  color: white;
+  font-family: Fraunces 144pt;
+  width: 40rem;
+  margin-left: 10rem;
+  text-align: center;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+.hero-span {
+  text-decoration: underline 4px solid #44ffa1;
+  font-weight: 300;
+}
+
+.btn--learn {
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
+  background-color: #44ffa1;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.ring {
+  position: absolute;
+  top: 30%;
+}
+
+.rings {
+  /* position: absolute; */
+  top: 50%;
+}
+
+.ring--left {
+  left: 0;
+  transform: translate(-260%, -50%);
+}
+
+.ring--right {
+  right: 0;
+  transform: translate(40%, 40%);
+}
+
+.image--section {
+  transform: scale(1.5);
+  z-index: 500;
+}
+
+.hero--image {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  right: 50%;
+  transform: translate(43%, -53%);
+}
+
+.products::after {
+  content: "";
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  position: absolute;
+  top: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #24053e;
+  /* z-index: 99; */
+}
+
+.products {
+  background-color: #fcf8ff;
+}
+
+.product--container {
+  display: flex;
+  margin: 18rem 17vw 5rem 17vw;
+  text-align: center;
+  gap: 30px;
+}
+
+.product__1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.btn--product__1 {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #584d62;
+  color: #24053e;
+  font-family: Fraunces 144pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+.product--header {
+  font-family: Fraunces 144pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  color: #24053e;
+}
+
+.product--desc {
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.action::after {
+  content: "";
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  position: absolute;
+  top: 0;
+  height: 15%;
+  width: 100%;
+  background-color: #fcf8ff;
+}
+
+.action--container {
+  margin: 15rem 0vw;
+  gap: 30px;
+}
+
+.action--container {
+  position: relative;
+}
+
+.profille--image {
+  /* position: absolute; */
+  top: 40px;
+  left: 0;
+  transform: translateX(-80%);
+}
+
+.testimonial--container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 40%);
+  padding: 64px;
+  width: 730px;
+  height: 413px;
+  background: #24053e;
+}
+
+.message {
+  color: #fff;
+  font-family: Fraunces 144pt;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+}
+
+.message--desc {
+  color: #fff;
+  font-weight: 20px;
+  line-height: 28px;
+  margin: 20px 0px;
+}
+
+.svg--3 {
+  position: absolute;
+  bottom: -40%;
+  right: -40%;
+}
+.footer {
+  text-align: center;
+  width: 70px;
+  height: 70.224px;
+  margin-bottom: 30px;
+}
+
+.footer--links {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.span {
+  font-size: 20px;
+}
+
+.strong {
+  color: #24053e;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
