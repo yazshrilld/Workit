@@ -463,6 +463,10 @@ li {
     flex-direction: column;
   }
 
+  .products::after {
+    height: 2%;
+  }
+
   .product__1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -551,12 +555,16 @@ li {
   .hero--image {
     width: 197px;
     height: 99px;
-    transform: translate(52%, 3%);
+    transform: translate(52%, -38%);
   }
 
   .action--container {
     margin: 15rem 0vw;
     gap: 30px;
+  }
+
+  .action::after {
+    height: 3%;
   }
 
   .testimonial--container {
