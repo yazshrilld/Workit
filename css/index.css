@@ -14,9 +14,16 @@ body {
 }
 
 .header {
-  /* background-color: red; */
   background-color: #24053e;
   color: white;
+}
+
+.container {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .header-section {
@@ -269,4 +276,28 @@ li {
   color: #24053e;
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .ring--left {
+    left: 0;
+    transform: translate(-228%, -50%);
+  }
+
+  .hero--center {
+    width: 60rem;
+    margin: 2rem auto;
+    text-align: center;
+  }
+
+  .product--container {
+    display: flex;
+    margin: 18rem 9vw 1rem 6vw;
+    text-align: center;
+    gap: 30px;
+  }
 }
