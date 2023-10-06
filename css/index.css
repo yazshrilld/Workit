@@ -336,6 +336,16 @@ li {
     background: #24053e;
   }
 
+  .btn--learn__2 {
+    margin-top: 1rem;
+    width: 7rem;
+    height: 3rem;
+    background-color: #44ffa1;
+    color: black;
+    border: none;
+    outline: none;
+  }
+
   .svg--3 {
     position: absolute;
     bottom: -63%;
