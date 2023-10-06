@@ -512,7 +512,7 @@ li {
   .ring--left {
     display: none;
   }
-  
+
   .ring--right {
     display: none;
   }
@@ -532,7 +532,6 @@ li {
     top: 101%;
     right: -50%;
   }
-
 }
 
 @media (max-width: 475px) {
@@ -543,8 +542,8 @@ li {
   .hero--text {
     width: 22rem;
     margin-left: 0rem;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 43px;
+    line-height: 43px;
   }
 
   .btn--learn {
