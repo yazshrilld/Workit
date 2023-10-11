@@ -115,7 +115,7 @@ li {
 
 .ring--left {
   left: 0;
-  transform: translate(-260%, -50%);
+  /* transform: translate(-260%, -50%); */
 }
 
 .ring--right {
@@ -285,8 +285,9 @@ li {
   }
 
   .ring--left {
-    left: 0;
-    transform: translate(-228%, -50%);
+    top: 50px;
+    left: -118px;
+    /* transform: translate(-228%, -50%); */
   }
 
   .hero--center {
@@ -309,8 +310,9 @@ li {
   }
 
   .ring--left {
-    left: 0;
-    transform: translate(-190%, -50%);
+    top: 50px;
+    left: -118px;
+    /* transform: translate(-190%, -50%); */
   }
 
   .product--container {
@@ -372,8 +374,9 @@ li {
   }
 
   .ring--left {
-    left: 0;
-    transform: translate(-170%, -50%);
+    top: 120px;
+    left: -180px;
+    /* transform: translate(-190%, -50%); */
   }
 
   .hero--image {
